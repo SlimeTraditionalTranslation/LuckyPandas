@@ -31,9 +31,9 @@ public class Events implements Listener {
             Surprise surprise = LuckyPanda.getInstance().getRandomSurprise();
             if (surprise != null) {
                 surprise.process(killer, killed);
-                killer.sendMessage(ChatColor.GREEN + "You are lucky this time!");
+                killer.sendMessage(ChatColor.GREEN + "你這次很幸運!");
             } else {
-                killer.sendMessage(ChatColor.GREEN + "Why the hell did you do that?");
+                killer.sendMessage(ChatColor.GREEN + "你到底為甚麼要這樣做?");
             }
         }
     }

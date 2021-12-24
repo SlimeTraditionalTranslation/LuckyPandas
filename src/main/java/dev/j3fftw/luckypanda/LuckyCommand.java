@@ -17,7 +17,7 @@ public class LuckyCommand implements CommandExecutor {
     @ParametersAreNonnullByDefault
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] args) {
         if (commandSender instanceof ConsoleCommandSender) {
-            commandSender.sendMessage("This command can only be ran by a player.");
+            commandSender.sendMessage("這個指令只能由玩家執行");
             return true;
         }
         final Player player = (Player) commandSender;
@@ -29,12 +29,12 @@ public class LuckyCommand implements CommandExecutor {
                         return true;
                     }
                 }
-                player.sendMessage(ChatColor.RED + "There isn't a surprise with this ID, please try again.");
+                player.sendMessage(ChatColor.RED + "這個ID並沒有驚喜, 請在試一次");
             } else {
                 chooseSurprise().process(player, player);
             }
         } else {
-            player.sendMessage(ChatColor.RED + "You don't have the permissions to run this command.");
+            player.sendMessage(ChatColor.RED + "你沒有權限執行這個指令.");
         }
         return true;
     }

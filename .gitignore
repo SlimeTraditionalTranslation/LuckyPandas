@@ -6,3 +6,4 @@
 .classpath
 .project
 *.sh
+dependency-reduced-pom.xml

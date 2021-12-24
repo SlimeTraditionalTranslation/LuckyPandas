@@ -45,38 +45,38 @@ public class BabyPandaSurprise implements Surprise {
         final int rarePanda = ThreadLocalRandom.current().nextInt(5);
         switch (rarePanda) {
             case 0:
-                panda.setCustomName(ChatColor.of("#FB9900") + "The Almighty Walshy");
+                panda.setCustomName(ChatColor.of("#FB9900") + "全能的 Walshy");
                 panda.setMainGene(Panda.Gene.AGGRESSIVE);
                 panda.setTarget(player);
                 panda.setCanPickupItems(true);
                 panda.isBreedItem(Material.ACACIA_FENCE_GATE);
                 break;
             case 1:
-                panda.setCustomName(ChatColor.of("#0099FF") + "The Crazy Sefi");
+                panda.setCustomName(ChatColor.of("#0099FF") + "瘋狂的 Sefi");
                 panda.setMainGene(Panda.Gene.PLAYFUL);
                 panda.setAdult();
                 location.getWorld().spawnEntity(location, EntityType.BOAT);
                 panda.isBreedItem(Material.BEETROOT_SEEDS);
                 break;
             case 2:
-                panda.setCustomName(ChatColor.of("#803CA1") + "The Lazy Jeff");
+                panda.setCustomName(ChatColor.of("#803CA1") + "懶惰的 Jeff");
                 panda.setMainGene(Panda.Gene.LAZY);
                 panda.setVisualFire(true);
                 break;
             case 3:
                 final int chance = ThreadLocalRandom.current().nextInt(10);
                 if (chance == 1) {
-                    panda.setCustomName(ChatColor.of("#0704E0") + "The Mathy Blueberry");
+                    panda.setCustomName(ChatColor.of("#0704E0") + "瑪西藍莓");
                 } else {
                     // Sorry blame Walshy
-                    panda.setCustomName(ChatColor.of("#0704E0") + "A Dumb Fuck");
+                    panda.setCustomName(ChatColor.of("#0704E0") + "一個蠢貨");
                 }
                 panda.setMainGene(Panda.Gene.WORRIED);
                 panda.isBreedItem(Material.WAXED_EXPOSED_CUT_COPPER_STAIRS);
                 panda.setGlowing(true);
                 break;
             case 4:
-                panda.setCustomName(ChatColor.of("#363680") + "Big Busy Biscuit");
+                panda.setCustomName(ChatColor.of("#363680") + "忙碌的 Biscuit");
                 panda.setMainGene(Panda.Gene.WORRIED);
                 panda.isBreedItem(Material.COOKIE);
                 break;

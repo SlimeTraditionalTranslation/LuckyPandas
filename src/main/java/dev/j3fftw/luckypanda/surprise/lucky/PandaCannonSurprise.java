@@ -26,7 +26,7 @@ public class PandaCannonSurprise implements Surprise {
     public void process(@Nonnull Player player, @Nonnull Entity entity) {
         final ItemStack itemStack = new ItemStack(Material.BAMBOO);
         final ItemMeta itemMeta = itemStack.getItemMeta();
-        itemMeta.setDisplayName(ChatColor.of("#0FA311") + "Panda Cannon");
+        itemMeta.setDisplayName(ChatColor.of("#0FA311") + "熊貓砲");
         PersistentDataAPI.setBoolean(itemMeta, Constants.PANDA_CANNON, true);
         itemStack.setItemMeta(itemMeta);
         entity.getWorld().dropItemNaturally(entity.getLocation(), itemStack);

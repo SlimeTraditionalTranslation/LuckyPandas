@@ -26,7 +26,7 @@ public class PandaBootsSurprise implements Surprise {
     public void process(@Nonnull Player player, @Nonnull Entity entity) {
         final ItemStack boots = new ItemStack(Material.LEATHER_BOOTS);
         final LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) boots.getItemMeta();
-        leatherArmorMeta.setDisplayName(ChatColor.BLUE + "Panda boots");
+        leatherArmorMeta.setDisplayName(ChatColor.BLUE + "熊貓靴");
         leatherArmorMeta.setColor(Color.fromRGB(0, 0, 0));
         leatherArmorMeta.addEnchant(Enchantment.PROTECTION_ENVIRONMENTAL, 5, true);
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, true);

@@ -17,8 +17,8 @@ import dev.j3fftw.luckypanda.surprise.unlucky.HoleSurprise;
 import dev.j3fftw.luckypanda.surprise.unlucky.JailAnvilSurprise;
 import dev.j3fftw.luckypanda.surprise.unlucky.JailLavaSurprise;
 import io.github.bakedlibs.dough.protection.ProtectionManager;
-import io.github.bakedlibs.dough.updater.GitHubBuildsUpdater;
-import org.bstats.bukkit.Metrics;
+//import io.github.bakedlibs.dough.updater.GitHubBuildsUpdater;
+//import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
@@ -43,13 +43,13 @@ public final class LuckyPanda extends JavaPlugin {
         getConfig().options().copyDefaults(true);
         saveConfig();
 
-        new Metrics(this, 13134);
+        //new Metrics(this, 13134);
 
-        if (this.getConfig().getBoolean("options.auto-update")
+        /*if (this.getConfig().getBoolean("options.auto-update")
             && !this.getDescription().getVersion().equals("Unofficial")
         ) {
             new GitHubBuildsUpdater(this, getFile(), "J3fftw/LuckyPandas/master").start();
-        }
+        }*/
 
         getCommand("lucky").setExecutor(new LuckyCommand());
         getServer().getPluginManager().registerEvents(new Events(), this);

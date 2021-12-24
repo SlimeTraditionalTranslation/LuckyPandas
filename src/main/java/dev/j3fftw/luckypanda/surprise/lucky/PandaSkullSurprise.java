@@ -27,7 +27,7 @@ public class PandaSkullSurprise implements Surprise {
     public void process(@Nonnull Player player, @Nonnull Entity entity) {
         final ItemStack pandaSkull = PlayerHead.getItemStack(PlayerSkin.fromHashCode(Constants.PANDA_SKULL));
         final ItemMeta itemMeta = pandaSkull.getItemMeta();
-        itemMeta.setDisplayName(ChatColor.BLUE + "Panda Skull");
+        itemMeta.setDisplayName(ChatColor.BLUE + "熊貓頭");
         itemMeta.addEnchant(Enchantment.PROTECTION_ENVIRONMENTAL, 5, true);
         itemMeta.addEnchant(Enchantment.OXYGEN, 3, true);
         itemMeta.addEnchant(Enchantment.MENDING, 1, true);

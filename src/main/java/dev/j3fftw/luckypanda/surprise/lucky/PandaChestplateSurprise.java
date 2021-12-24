@@ -26,7 +26,7 @@ public class PandaChestplateSurprise implements Surprise {
     public void process(@Nonnull Player player, @Nonnull Entity entity) {
         final ItemStack chestplate = new ItemStack(Material.LEATHER_CHESTPLATE);
         final LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) chestplate.getItemMeta();
-        leatherArmorMeta.setDisplayName(ChatColor.BLUE + "Panda Chestplate");
+        leatherArmorMeta.setDisplayName(ChatColor.BLUE + "熊貓胸甲");
         leatherArmorMeta.setColor(Color.fromRGB(0, 0, 0));
         leatherArmorMeta.addEnchant(Enchantment.PROTECTION_ENVIRONMENTAL, 5, true);
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, true);

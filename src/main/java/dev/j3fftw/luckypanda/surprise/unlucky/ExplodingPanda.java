@@ -25,7 +25,7 @@ public class ExplodingPanda implements Surprise {
         Panda panda = Utils.spawnSurprisedPanda(entity.getLocation());
         panda.setTarget(player);
         panda.setMainGene(Panda.Gene.AGGRESSIVE);
-        panda.setCustomName(ChatColor.DARK_RED + "Bomber Panda");
+        panda.setCustomName(ChatColor.DARK_RED + "炸彈熊貓");
         PersistentDataAPI.setBoolean(panda, Constants.EXPLOSIVE_PANDA, true);
     }
 }

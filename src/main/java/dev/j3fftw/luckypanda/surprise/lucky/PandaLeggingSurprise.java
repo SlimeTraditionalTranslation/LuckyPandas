@@ -26,7 +26,7 @@ public class PandaLeggingSurprise implements Surprise {
     public void process(@Nonnull Player player, @Nonnull Entity entity) {
         final ItemStack leggings = new ItemStack(Material.LEATHER_LEGGINGS);
         final LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) leggings.getItemMeta();
-        leatherArmorMeta.setDisplayName(ChatColor.BLUE + "Panda Leggings");
+        leatherArmorMeta.setDisplayName(ChatColor.BLUE + "熊貓護腿");
         leatherArmorMeta.setColor(Color.fromRGB(255, 255, 255));
         leatherArmorMeta.addEnchant(Enchantment.PROTECTION_ENVIRONMENTAL, 5, true);
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, true);

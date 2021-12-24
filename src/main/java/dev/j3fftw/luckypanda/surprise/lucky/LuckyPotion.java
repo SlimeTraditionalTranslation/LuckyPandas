@@ -27,7 +27,7 @@ public class LuckyPotion implements Surprise {
         final PotionMeta itemMeta = (PotionMeta) itemStack.getItemMeta();
         final int duration = 300;
         final int amplifier = 4;
-        itemMeta.setDisplayName(ChatColor.of("#0FA311") + "Lucky Potion");
+        itemMeta.setDisplayName(ChatColor.of("#0FA311") + "幸運藥水");
         Utils.applyPotion(itemMeta, PotionEffectType.LUCK, duration, amplifier);
         Utils.applyPotion(itemMeta, PotionEffectType.REGENERATION, duration, amplifier);
         Utils.applyPotion(itemMeta, PotionEffectType.FIRE_RESISTANCE, duration, amplifier);

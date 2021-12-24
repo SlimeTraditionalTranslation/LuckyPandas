@@ -21,6 +21,6 @@ public class TryAgainPandaSurprise implements Surprise {
     @Override
     public void process(@Nonnull Player player, @Nonnull Entity entity) {
         entity.getLocation().getWorld().spawnEntity(entity.getLocation().add(0, 1, 0), EntityType.PANDA);
-        player.sendMessage(ChatColor.BLUE + "You have gotten another chance");
+        player.sendMessage(ChatColor.BLUE + "你獲得另一個機會");
     }
 }

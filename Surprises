@@ -1,11 +1,11 @@
-* Lucky panda tools
-* Spawn a lot of mobs that cant take damage chasing the player and make them disappear when they do damage to the player the damage wont be actual damage we will need to cancel
-* a flying panda that tells the player he is gonna haunt him forever
-* Panda food that gives extra saturation and 1 extra hearth but has a 1 in 100000 chance to kill you
-* Lucky panda spawn egg
-    * Miner Panda - Finds the nearest random ore in x radius and mines it brings it back to the player
-    * Farmer Panda - Farms nearby crops and brings it to the player
+* 幸運熊貓工具
+* 生成大量無法受到傷害的怪物來追逐玩加, 並在它們對玩家造成傷害時消失, 傷害不會是真的傷害 我們需要取消
+* 一隻會飛的熊貓告訴玩家它會永遠纏著它
+* 熊貓食物會給予你額外飽食度和一個額外血量, 但你有 100000 之 1 的機率會在食用後死亡
+* 幸運熊貓生怪蛋
+    * 礦工熊貓 - 在半徑 x 範圍內找最近的隨機礦物, 並將其帶回給玩家
+    * 農夫熊貓 - 農作附近的農作物, 並將其帶回給玩家
 
-Check how many pandas are killed bstats
-make all surprises out put something in chat/or a different place
-add sound effects + particle effects to all surprises
+讓 bStats 記錄有多少熊貓被殺死
+讓所有驚喜都以 聊天室/或 不同的方式來顯現
+為所有驚喜添加 聲音效果 + 粒子效果

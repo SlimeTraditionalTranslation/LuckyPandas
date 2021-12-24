@@ -1,0 +1,9 @@
+version: "1"
+rules:
+  - base: master
+    upstream: J3fftw1:master
+    mergeMethod: merge
+    conflictReviewers:
+      - weiii-joe
+      - xwinhyukx
+      - xMikux

@@ -1,11 +1,19 @@
-# LuckyPandas
+# 幸運熊貓
 
-This plugin was first of based of the addon [Luckyblocks](https://github.com/TheBusyBiscuit/luckyblocks-sf/) for the plugin [Slimefun](https://github.com/Slimefun/Slimefun4). 
+這個插件是基於 [Slimefun](https://github.com/Slimefun/Slimefun4) 中的附加 [Luckyblocks](https://github.com/TheBusyBiscuit/luckyblocks-sf/). 
 
-This has been changed later on into a standalone plugin. 
+這後來被更改成獨立插件.
 
-As you all know, pandas are precious and should be protected at all costs. However, should you find your self in the unfortunate situation in which you must kill a panda(which is never), you'll now find each kill comes with a.... surprise.
+眾所周知, 熊貓是珍貴的, 應該不惜代價保護它們. 但是, 如果你處於必須殺死熊貓的不幸狀況 (這是不可能的), 你會發現每次殺死都會帶有... 驚喜.
 
-What surprises? Well, you'll have to find out for yourself!
+甚麼驚喜? 嗯, 你必須自己去發現!
 
-Some are good, some are bad - none will be worth the death of such majestic creatures, but that's on your conscience!
+有些是好的, 有些是壞的 - 沒有任何東西值得如此雄偉的生物死亡, 但這取決於你的良心!
+
+> 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
+> [原作連結](https://github.com/J3fftw1/LuckyPandas) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
+
+| 非官方繁體中文版 | 官方英文版 |
+| -------- | -------- |
+| 點下方圖片下載 | 點下方圖片下載 |
+| [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/LuckyPandas/master/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/LuckyPandas/master) | [![Build Status](https://thebusybiscuit.github.io/builds/J3fftw1/LuckyPandas/master/badge.svg)](https://thebusybiscuit.github.io/builds/J3fftw1/LuckyPandas/master) |
