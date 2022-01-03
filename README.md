@@ -17,3 +17,20 @@
 | -------- | -------- |
 | 點下方圖片下載 | 點下方圖片下載 |
 | [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/LuckyPandas/master/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/LuckyPandas/master) | [![Build Status](https://thebusybiscuit.github.io/builds/J3fftw1/LuckyPandas/master/badge.svg)](https://thebusybiscuit.github.io/builds/J3fftw1/LuckyPandas/master) |
+
+## 所有驚喜
+* 幸運藥水
+* 熊貓頭
+* 熊貓胸甲
+* 熊貓護腿
+* 熊貓靴
+* 熊貓砲
+* 熊貓寶寶
+* 飛天熊貓
+* 熊貓煙火
+* 堆疊熊貓
+* 在試一次熊貓
+* 炸彈熊貓
+* 巨大的洞
+* 鐵砧監獄
+* 岩漿監獄
